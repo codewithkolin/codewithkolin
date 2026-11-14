@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Suman Kumar. AI &amp; automation engineer who builds in public and teaches how. A title sequence from 1992 to today.">
+<title>Suman Kumar. AI &amp; automation engineer who builds in public and teaches how. A title sequence from 1992 to today.</title>
+<defs>
+  <clipPath id="screen"><rect width="1200" height="675" rx="28"/></clipPath>
+  <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  .9 0 0 0 -.3"/></filter>
+  <filter id="rough"><feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="2" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="3"/></filter>
+  <filter id="glow" x="-20%" y="-30%" width="140%" height="160%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="vig" cx=".5" cy=".5" r=".75"><stop offset=".55" stop-opacity="0"/><stop offset="1" stop-opacity=".62"/></radialGradient>
+  <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1.6" opacity=".4"/></pattern>
+  <linearGradient id="band" x2="0" y2="1"><stop stop-color="#3dff8f" stop-opacity="0"/><stop offset=".5" stop-color="#3dff8f" stop-opacity=".1"/><stop offset="1" stop-color="#3dff8f" stop-opacity="0"/></linearGradient>
+  <pattern id="grid" width="150" height="150" patternUnits="userSpaceOnUse"><path d="M30 0V150M60 0V150M90 0V150M120 0V150M0 30H150M0 60H150M0 90H150M0 120H150" stroke="#5cc8ff" stroke-opacity=".1"/><path d="M.5 0V150M0 .5H150" stroke="#5cc8ff" stroke-opacity=".28"/></pattern>
+  <linearGradient id="neon"><stop stop-color="#8b6cff"/><stop offset="1" stop-color="#35f0ff"/></linearGradient>
+  <radialGradient id="eglow" cx=".85" cy=".45" r=".7"><stop stop-color="#8b6cff" stop-opacity=".28"/><stop offset="1" stop-color="#07060e" stop-opacity="0"/></radialGradient>
+  <radialGradient id="nowglow" cx=".9" cy="1.05" r=".95"><stop stop-color="#17123a"/><stop offset="1" stop-color="#17123a" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+text{font-family:ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.a{animation-duration:19.90s;animation-timing-function:linear;animation-iteration-count:1;animation-fill-mode:both}
+.era,.beat{opacity:0}
+.kick{font:500 17px ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:.14em}
+.yr{font-size:230px;letter-spacing:-.03em}
+.ti{font-size:54px}
+.no{font-size:25px}
+.fig{font:500 14px ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:.14em}
+.hand{font:400 30px 'Bradley Hand','Segoe Print','Chalkboard SE','Comic Sans MS',cursive}
+.m-film .yr,.m-film .ti,.m-film .no{font-family:'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif}
+.m-film .yr,.m-film .ti{font-style:italic}
+.m-crt .yr,.m-crt .ti,.m-crt .no{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+.m-crt .yr,.m-blueprint .yr{font-size:200px;letter-spacing:0}
+.m-blueprint .yr{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;fill:none;stroke:#5cc8ff;stroke-width:2}
+.m-blueprint .ti{font-weight:300;letter-spacing:.04em;font-size:48px}
+.m-blueprint .no{font-family:ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:21px;letter-spacing:.06em}
+.m-chalk .yr,.m-chalk .ti,.m-chalk .no{font-family:'Bradley Hand','Segoe Print','Chalkboard SE','Comic Sans MS',cursive}
+.m-chalk .beat{filter:url(#rough)}
+.m-chalk .ti{font-size:60px}
+.m-chalk .no{font-size:32px}
+.m-electric .yr{font-weight:800;fill:url(#neon);letter-spacing:-.05em}
+.m-electric .ti{font-weight:600;font-size:50px}
+.name{font:400 168px 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;letter-spacing:-.035em}
+.pos{font:400 30px 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif}
+.bk{font:500 14px ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:.14em}
+.bv{font:400 32px 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif}
+.bn{font:400 17px ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}
+.tick{font:500 13px ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:.08em}
+@keyframes flick{0%,100%{opacity:0}50%{opacity:.06}}
+@keyframes scratch{0%,100%{opacity:0}30%{opacity:.35;transform:translateX(6px)}70%{opacity:.12;transform:translateX(-4px)}}
+@keyframes band{to{transform:translateY(955px)}}
+@keyframes blink{0%{opacity:1}50%,100%{opacity:0}}
+@keyframes pop{from{opacity:0}}
+@keyframes k0{3.02%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}4.72%{opacity:1;transform:translateY(0)}8.54%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}9.55%{opacity:0;transform:translateY(-26px)}}.k0{animation-name:k0}
+@keyframes k1{9.55%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}11.26%{opacity:1;transform:translateY(0)}15.08%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}16.08%{opacity:0;transform:translateY(-26px)}}.k1{animation-name:k1}
+@keyframes k2{16.08%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}17.79%{opacity:1;transform:translateY(0)}21.61%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}22.61%{opacity:0;transform:translateY(-26px)}}.k2{animation-name:k2}
+@keyframes k3{22.61%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}24.32%{opacity:1;transform:translateY(0)}28.14%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}29.15%{opacity:0;transform:translateY(-26px)}}.k3{animation-name:k3}
+@keyframes k4{1.76%{opacity:0}4.02%{opacity:1}30.65%{opacity:1}30.90%{opacity:0}}.k4{animation-name:k4}
+@keyframes k5{29.15%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}30.85%{opacity:1;transform:translateY(0)}34.67%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}35.68%{opacity:0;transform:translateY(-26px)}}.k5{animation-name:k5}
+@keyframes k6{35.68%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}37.39%{opacity:1;transform:translateY(0)}41.21%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}42.21%{opacity:0;transform:translateY(-26px)}}.k6{animation-name:k6}
+@keyframes k7{27.89%{opacity:0}30.15%{opacity:1}43.72%{opacity:1}43.97%{opacity:0}}.k7{animation-name:k7}
+@keyframes k8{42.21%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}43.92%{opacity:1;transform:translateY(0)}47.74%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}48.74%{opacity:0;transform:translateY(-26px)}}.k8{animation-name:k8}
+@keyframes k9{48.74%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}50.45%{opacity:1;transform:translateY(0)}54.27%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}55.28%{opacity:0;transform:translateY(-26px)}}.k9{animation-name:k9}
+@keyframes k10{40.95%{opacity:0}43.22%{opacity:1}56.78%{opacity:1}57.04%{opacity:0}}.k10{animation-name:k10}
+@keyframes k11{0.00%{stroke-dashoffset:100}43.22%{stroke-dashoffset:100;animation-timing-function:ease-out}51.26%{stroke-dashoffset:0}}.k11{animation-name:k11}
+@keyframes k12{55.28%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}56.98%{opacity:1;transform:translateY(0)}60.80%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}61.81%{opacity:0;transform:translateY(-26px)}}.k12{animation-name:k12}
+@keyframes k13{61.81%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}63.52%{opacity:1;transform:translateY(0)}67.34%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}68.34%{opacity:0;transform:translateY(-26px)}}.k13{animation-name:k13}
+@keyframes k14{68.34%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}70.05%{opacity:1;transform:translateY(0)}73.87%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}74.87%{opacity:0;transform:translateY(-26px)}}.k14{animation-name:k14}
+@keyframes k15{54.02%{opacity:0}56.28%{opacity:1}76.38%{opacity:1}76.63%{opacity:0}}.k15{animation-name:k15}
+@keyframes k16{74.87%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}76.58%{opacity:1;transform:translateY(0)}80.40%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}81.41%{opacity:0;transform:translateY(-26px)}}.k16{animation-name:k16}
+@keyframes k17{81.41%{opacity:0;transform:translateY(34px);animation-timing-function:cubic-bezier(.16,1,.3,1)}83.12%{opacity:1;transform:translateY(0)}86.93%{opacity:1;transform:translateY(0);animation-timing-function:ease-in}87.94%{opacity:0;transform:translateY(-26px)}}.k17{animation-name:k17}
+@keyframes k18{73.62%{opacity:0}75.88%{opacity:1}89.45%{opacity:1}89.70%{opacity:0}}.k18{animation-name:k18}
+@keyframes k19{0.00%{stroke-dashoffset:100}75.38%{stroke-dashoffset:100;animation-timing-function:ease-out}81.41%{stroke-dashoffset:0}}.k19{animation-name:k19}
+@keyframes k20{0.00%{stroke-dashoffset:100}76.38%{stroke-dashoffset:100;animation-timing-function:ease-out}82.41%{stroke-dashoffset:0}}.k20{animation-name:k20}
+@keyframes k21{0.00%{stroke-dashoffset:100}77.39%{stroke-dashoffset:100;animation-timing-function:ease-out}83.42%{stroke-dashoffset:0}}.k21{animation-name:k21}
+@keyframes k22{0.00%{opacity:0;transform:translateY(26px)}88.44%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}92.46%{opacity:1;transform:translateY(0)}}.k22{animation-name:k22}
+@keyframes k23{0.00%{opacity:0;transform:translateY(26px)}89.05%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}93.07%{opacity:1;transform:translateY(0)}}.k23{animation-name:k23}
+@keyframes k24{0.00%{opacity:0;transform:translateY(26px)}89.65%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}93.67%{opacity:1;transform:translateY(0)}}.k24{animation-name:k24}
+@keyframes k25{0.00%{opacity:0}86.93%{opacity:0}89.20%{opacity:1}}.k25{animation-name:k25}
+@keyframes k26{0.00%{opacity:0;transform:translateY(26px)}88.44%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}92.46%{opacity:1;transform:translateY(0)}}.k26{animation-name:k26}
+@keyframes k27{0.00%{opacity:0;transform:translateY(26px)}89.05%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}93.07%{opacity:1;transform:translateY(0)}}.k27{animation-name:k27}
+@keyframes k28{0.00%{opacity:0;transform:translateY(26px)}89.65%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}93.67%{opacity:1;transform:translateY(0)}}.k28{animation-name:k28}
+@keyframes k29{0.00%{opacity:0;transform:translateY(26px)}90.25%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}94.27%{opacity:1;transform:translateY(0)}}.k29{animation-name:k29}
+@keyframes k30{0.00%{opacity:0;transform:translateY(26px)}90.85%{opacity:0;transform:translateY(26px);animation-timing-function:cubic-bezier(.16,1,.3,1)}94.87%{opacity:1;transform:translateY(0)}}.k30{animation-name:k30}
+@keyframes k31{0.00%{opacity:0}90.45%{opacity:0}93.47%{opacity:1}}.k31{animation-name:k31}
+@keyframes k32{0.00%{stroke-dashoffset:1056}9.55%{stroke-dashoffset:1056.0;animation-timing-function:cubic-bezier(.16,1,.3,1)}12.31%{stroke-dashoffset:783.4}16.08%{stroke-dashoffset:783.4;animation-timing-function:cubic-bezier(.16,1,.3,1)}18.84%{stroke-dashoffset:450.3}22.61%{stroke-dashoffset:450.3;animation-timing-function:cubic-bezier(.16,1,.3,1)}25.38%{stroke-dashoffset:329.2}29.15%{stroke-dashoffset:329.2;animation-timing-function:cubic-bezier(.16,1,.3,1)}31.91%{stroke-dashoffset:298.9}42.21%{stroke-dashoffset:298.9;animation-timing-function:cubic-bezier(.16,1,.3,1)}44.97%{stroke-dashoffset:238.3}48.74%{stroke-dashoffset:238.3;animation-timing-function:cubic-bezier(.16,1,.3,1)}51.51%{stroke-dashoffset:177.7}55.28%{stroke-dashoffset:177.7;animation-timing-function:cubic-bezier(.16,1,.3,1)}58.04%{stroke-dashoffset:117.2}68.34%{stroke-dashoffset:117.2;animation-timing-function:cubic-bezier(.16,1,.3,1)}71.11%{stroke-dashoffset:86.9}74.87%{stroke-dashoffset:86.9;animation-timing-function:cubic-bezier(.16,1,.3,1)}77.64%{stroke-dashoffset:26.3}87.94%{stroke-dashoffset:26.3;animation-timing-function:cubic-bezier(.16,1,.3,1)}90.70%{stroke-dashoffset:0.0}}.k32{animation-name:k32}
+@keyframes k33{0.00%{transform:translateX(72px)}9.55%{transform:translateX(72.0px);animation-timing-function:cubic-bezier(.16,1,.3,1)}12.31%{transform:translateX(344.6px)}16.08%{transform:translateX(344.6px);animation-timing-function:cubic-bezier(.16,1,.3,1)}18.84%{transform:translateX(677.7px)}22.61%{transform:translateX(677.7px);animation-timing-function:cubic-bezier(.16,1,.3,1)}25.38%{transform:translateX(798.8px)}29.15%{transform:translateX(798.8px);animation-timing-function:cubic-bezier(.16,1,.3,1)}31.91%{transform:translateX(829.1px)}42.21%{transform:translateX(829.1px);animation-timing-function:cubic-bezier(.16,1,.3,1)}44.97%{transform:translateX(889.7px)}48.74%{transform:translateX(889.7px);animation-timing-function:cubic-bezier(.16,1,.3,1)}51.51%{transform:translateX(950.3px)}55.28%{transform:translateX(950.3px);animation-timing-function:cubic-bezier(.16,1,.3,1)}58.04%{transform:translateX(1010.8px)}68.34%{transform:translateX(1010.8px);animation-timing-function:cubic-bezier(.16,1,.3,1)}71.11%{transform:translateX(1041.1px)}74.87%{transform:translateX(1041.1px);animation-timing-function:cubic-bezier(.16,1,.3,1)}77.64%{transform:translateX(1101.7px)}87.94%{transform:translateX(1101.7px);animation-timing-function:cubic-bezier(.16,1,.3,1)}90.70%{transform:translateX(1128.0px)}}.k33{animation-name:k33}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<g clip-path="url(#screen)">
+  <rect width="1200" height="675" fill="#07060e"/>
+  <g class="a k4 era m-film">
+      <rect width="1200" height="675" fill="#17110c"/>
+      <rect width="1200" height="675" fill="url(#vig)"/>
+      <rect width="1200" height="675" filter="url(#grain)" opacity=".55"/>
+      <rect x="0" width="52" height="675" fill="#0b0705"/><rect x="15" y="14" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="70" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="126" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="182" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="238" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="294" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="350" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="406" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="462" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="518" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="574" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="15" y="630" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1148" width="52" height="675" fill="#0b0705"/><rect x="1163" y="14" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="70" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="126" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="182" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="238" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="294" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="350" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="406" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="462" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="518" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="574" width="22" height="30" rx="5" fill="#2a1d13"/><rect x="1163" y="630" width="22" height="30" rx="5" fill="#2a1d13"/>
+      <rect x="873" width="1.5" height="675" fill="#f3e6cc" opacity="0" style="animation:scratch .9s steps(4) 6 0.6s both"/>
+      <rect width="1200" height="675" fill="#f2c46d" opacity="0" style="animation:flick .21s steps(2) 26 0.6s both"/>
+      <text class="kick" x="72" y="70" fill="#c2b08f"><tspan fill="#e8845a">ORIGIN</tspan><tspan dx="16">FIRST COMPUTER, THEN COLLEGE</tspan></text>
+      <text class="kick" x="1128" y="70" text-anchor="end" fill="#c2b08f">REEL 1 / 5</text>
+      <g class="a k0 beat"><text class="yr" x="66" y="338" fill="#f3e6cc">1992</text><text class="ti" x="72" y="424" fill="#f3e6cc">Born</text><text class="no" x="72" y="470" fill="#c2b08f">8 January</text></g><g class="a k1 beat"><text class="yr" x="66" y="338" fill="#f3e6cc">2001</text><text class="ti" x="72" y="424" fill="#f3e6cc">First computer</text><text class="no" x="72" y="470" fill="#c2b08f">An Intel Pentium 1</text></g><g class="a k2 beat"><text class="yr" x="66" y="338" fill="#f3e6cc">2012</text><text class="ti" x="72" y="424" fill="#f3e6cc">Engineering college</text><text class="no" x="72" y="470" fill="#c2b08f">NMAMIT, Nitte · B.E. Electrical &amp; Electronics</text></g><g class="a k3 beat"><text class="yr" x="66" y="338" fill="#f3e6cc">2016</text><text class="ti" x="72" y="424" fill="#f3e6cc">The camera goes on</text><text class="no" x="72" y="470" fill="#c2b08f">YouTube · 21 December</text></g>
+    </g>
+  <g class="a k7 era m-crt">
+      <rect width="1200" height="675" fill="#040a06"/>
+      <rect width="1200" height="675" fill="url(#scan)"/>
+      <rect width="1200" height="675" fill="url(#vig)"/>
+      <rect y="-140" width="1200" height="140" fill="url(#band)" style="animation:band 2.60s linear 1 5.8s both"/>
+      <rect x="72" y="448" width="15" height="26" fill="#3dff8f" style="animation:blink .5s steps(1) 6 5.8s both"/>
+      <text class="kick" x="72" y="70" fill="#8fc09c"><tspan fill="#3dff8f">FIRST JOB</tspan><tspan dx="16">PAID WORK, AND A CAMERA ON THE SIDE</tspan></text>
+      <text class="kick" x="1128" y="70" text-anchor="end" fill="#8fc09c">REEL 2 / 5</text>
+      <g class="a k5 beat"><text class="yr" x="66" y="338" fill="#d4ffe0" filter="url(#glow)">2017</text><text class="ti" x="72" y="424" fill="#d4ffe0">CSS Corp</text><text class="no" x="100" y="470" fill="#8fc09c">System Engineer · Bengaluru</text></g><g class="a k6 beat"><text class="yr" x="66" y="338" fill="#d4ffe0" filter="url(#glow)">2017</text><text class="ti" x="72" y="424" fill="#d4ffe0">Bike, road, camera</text><text class="no" x="100" y="470" fill="#8fc09c">30+ places across India</text></g>
+    </g>
+  <g class="a k10 era m-blueprint">
+      <rect width="1200" height="675" fill="#0a1830"/>
+      <rect width="1200" height="675" fill="url(#grid)"/>
+      <path d="M24 60V24H60M1140 24H1176V60M24 615V651H60M1140 651H1176V615" fill="none" stroke="#5cc8ff" stroke-opacity=".6"/>
+      <path d="M930 150v300M780 300h300M930 300m-120 0a120 120 0 1 0 240 0a120 120 0 1 0-240 0M930 300m-60 0a60 60 0 1 0 120 0a60 60 0 1 0-120 0M810 470h240M810 460v20M1050 460v20" fill="none" stroke="#5cc8ff" stroke-width="1.6" pathLength="100" stroke-dasharray="100" class="a k11"/>
+      <text class="fig" x="930" y="504" text-anchor="middle" fill="#9ab8dc">FIG. 3 · ENGINEER</text>
+      <text class="kick" x="72" y="70" fill="#9ab8dc"><tspan fill="#5cc8ff">ENGINEER</tspan><tspan dx="16">ENGINEERING, AND EVERYTHING AT ONCE</tspan></text>
+      <text class="kick" x="1128" y="70" text-anchor="end" fill="#9ab8dc">REEL 3 / 5</text>
+      <g class="a k8 beat"><text class="yr" x="66" y="338" fill="#e3f1ff">2019</text><text class="ti" x="72" y="424" fill="#e3f1ff">HCLTech</text><text class="no" x="72" y="470" fill="#9ab8dc">Python Automation Engineer</text></g><g class="a k9 beat"><text class="yr" x="66" y="338" fill="#e3f1ff">2021</text><text class="ti" x="72" y="424" fill="#e3f1ff">Ribbon Communications</text><text class="no" x="72" y="470" fill="#9ab8dc">R&amp;D Testing Engineer II</text></g>
+    </g>
+  <g class="a k15 era m-chalk">
+      <rect width="1200" height="675" fill="#1b2a22"/>
+      <rect width="1200" height="675" filter="url(#grain)" opacity=".28"/>
+      <g filter="url(#rough)" stroke="#eef3ea" stroke-width="5" stroke-linecap="round" fill="none" opacity=".9"><path d="M790 190v60M803 192v58M816 189v61M829 191v59M781 240L838 198" style="animation:pop .3s ease-out 1 11.30s both"/><path d="M858 190v60M871 192v58M884 189v61M897 191v59M849 240L906 198" style="animation:pop .3s ease-out 1 11.60s both"/><path d="M926 190v60M939 192v58M952 189v61M965 191v59M917 240L974 198" style="animation:pop .3s ease-out 1 11.90s both"/><path d="M994 190v60M1007 192v58M1020 189v61M1033 191v59M985 240L1042 198" style="animation:pop .3s ease-out 1 12.20s both"/><path d="M1062 190v60M1075 192v58M1088 189v61M1101 191v59M1053 240L1110 198" style="animation:pop .3s ease-out 1 12.50s both"/><path d="M790 294v60M803 296v58M816 293v61M829 295v59M781 344L838 302" style="animation:pop .3s ease-out 1 12.80s both"/><path d="M858 294v60M871 296v58M884 293v61M897 295v59M849 344L906 302" style="animation:pop .3s ease-out 1 13.10s both"/><path d="M926 294v60M939 296v58M952 293v61M965 295v59M917 344L974 302" style="animation:pop .3s ease-out 1 13.40s both"/><path d="M994 294v60M1007 296v58M1020 293v61M1033 295v59M985 344L1042 302" style="animation:pop .3s ease-out 1 13.70s both"/><path d="M1062 294v60M1075 296v58M1088 293v61M1101 295v59M1053 344L1110 302" style="animation:pop .3s ease-out 1 14.00s both"/></g>
+      <text class="hand" x="1128" y="446" text-anchor="end" fill="#f5d76e" filter="url(#rough)">900+ students since 2020</text>
+      <text class="kick" x="72" y="70" fill="#afbfb0"><tspan fill="#f5d76e">TEACHER</tspan><tspan dx="16">THE CLASSROOM GOES GLOBAL</tspan></text>
+      <text class="kick" x="1128" y="70" text-anchor="end" fill="#afbfb0">REEL 4 / 5</text>
+      <g class="a k12 beat"><text class="yr" x="66" y="338" fill="#eef3ea">2023</text><text class="ti" x="72" y="424" fill="#eef3ea">Juniper Networks</text><text class="no" x="72" y="470" fill="#afbfb0">Software Engineer 3</text></g><g class="a k13 beat"><text class="yr" x="66" y="338" fill="#eef3ea">2023</text><text class="ti" x="72" y="424" fill="#eef3ea">Career coach</text><text class="no" x="72" y="470" fill="#afbfb0">500+ mentored on topmate · top 0.1%</text></g><g class="a k14 beat"><text class="yr" x="66" y="338" fill="#eef3ea">2024</text><text class="ti" x="72" y="424" fill="#eef3ea">@codewithkolin</text><text class="no" x="72" y="470" fill="#afbfb0">50K followers on Instagram</text></g>
+    </g>
+  <g class="a k18 era m-electric">
+      <rect width="1200" height="675" fill="#07060e"/>
+      <rect width="1200" height="675" fill="url(#eglow)"/>
+      <g fill="none" stroke="url(#neon)" stroke-linecap="round" filter="url(#glow)">
+        <path d="M700 520C820 300 980 420 1140 140" stroke-width="4" pathLength="100" stroke-dasharray="100" class="a k19"/>
+        <path d="M740 560C900 420 1000 520 1150 300" stroke-width="2" pathLength="100" stroke-dasharray="100" class="a k20"/>
+        <path d="M760 140C860 200 900 120 1120 90" stroke-width="2" pathLength="100" stroke-dasharray="100" class="a k21"/>
+      </g>
+      <text class="kick" x="72" y="70" fill="#a9a5c8"><tspan fill="#8b6cff">BUILDER</tspan><tspan dx="16">ONE SHIP A WEEK</tspan></text>
+      <text class="kick" x="1128" y="70" text-anchor="end" fill="#a9a5c8">REEL 5 / 5</text>
+      <g class="a k16 beat"><text class="yr" x="66" y="338" fill="#f1efff">2026</text><text class="ti" x="72" y="424" fill="#f1efff">One a week</text><text class="no" x="72" y="470" fill="#a9a5c8">1 ship / week, in public</text></g><g class="a k17 beat"><text class="yr" x="66" y="338" fill="#f1efff">2026</text><text class="ti" x="72" y="424" fill="#f1efff">One thing I&#39;m not telling you yet</text><text class="no" x="72" y="470" fill="#a9a5c8">Opens 2036</text></g>
+    </g>
+  <g class="a k25">
+      <rect width="1200" height="675" fill="#07060e"/><rect width="1200" height="675" fill="url(#nowglow)"/>
+      <g class="a k26"><text class="kick" x="72" y="70" fill="#f6f4ff">CODE WITH KOLIN</text><rect x="275" y="63" width="44" height="1.5" fill="#b9a8ff"/><text class="kick" x="333" y="70" fill="#b0acd2">1992 → 14 NOV 2026</text></g>
+      <g class="a k27"><text class="name" x="64" y="262" fill="#f6f4ff">Suman</text></g>
+      <g class="a k28"><text class="name" x="64" y="408" fill="#f6f4ff">Kumar</text></g>
+      <g class="a k29"><text class="pos" x="72" y="474" fill="#f6f4ff" fill-opacity=".9">AI &amp; automation engineer who builds</text><text class="pos" x="72" y="512" fill="#f6f4ff" fill-opacity=".9">in public and teaches how.</text></g>
+      <g class="a k30"><circle cx="818" cy="144" r="5" fill="#b9a8ff"/><text class="kick" x="834" y="150" fill="#b9a8ff">NOW SHOWING</text><rect x="812" y="168" width="316" height="1" fill="#fff" fill-opacity=".14"/></g>
+      <g class="a k22"><text class="bk" x="812" y="204" fill="#b0acd2">LAST SHIPPED</text><text class="bv" x="812" y="244" fill="#f6f4ff">keyfold</text><text class="bn" x="812" y="272" fill="#b0acd2">pushed 20 Oct 2026</text></g><g class="a k23"><text class="bk" x="812" y="316" fill="#b0acd2">GITHUB</text><text class="bv" x="812" y="356" fill="#f6f4ff">1,793</text><text class="bn" x="812" y="384" fill="#b0acd2">contributions in the last year</text></g><g class="a k24"><text class="bk" x="812" y="428" fill="#b0acd2">LIVE RIGHT NOW</text><text class="bv" x="812" y="468" fill="#f6f4ff">6 products</text><text class="bn" x="812" y="496" fill="#b0acd2">and 1 app on the App Store</text></g>
+    </g>
+  <g>
+      <line x1="72" y1="600" x2="1128" y2="600" stroke="#fff" stroke-opacity=".16" stroke-width="2"/>
+      <line x1="72" y1="600" x2="1128" y2="600" stroke="#fff" stroke-opacity=".9" stroke-width="2.5" stroke-dasharray="1056" class="a k32"/>
+      <line x1="72.0" y1="595" x2="72.0" y2="605" stroke="#fff" stroke-opacity=".5"/><text class="tick" x="72.0" y="630" text-anchor="start" fill="#fff" fill-opacity=".6">1992</text><line x1="829.1" y1="595" x2="829.1" y2="605" stroke="#fff" stroke-opacity=".5"/><text class="tick" x="829.1" y="630" text-anchor="middle" fill="#fff" fill-opacity=".6">2017</text><line x1="889.7" y1="595" x2="889.7" y2="605" stroke="#fff" stroke-opacity=".5"/><text class="tick" x="889.7" y="630" text-anchor="middle" fill="#fff" fill-opacity=".6">2019</text><line x1="1010.8" y1="595" x2="1010.8" y2="605" stroke="#fff" stroke-opacity=".5"/><text class="tick" x="1010.8" y="630" text-anchor="middle" fill="#fff" fill-opacity=".6">2023</text><line x1="1101.7" y1="595" x2="1101.7" y2="605" stroke="#fff" stroke-opacity=".5"/><text class="tick" x="1101.7" y="630" text-anchor="middle" fill="#fff" fill-opacity=".6">2026</text>
+      <circle cx="72" cy="600" r="7" fill="#fff"/>
+      <g class="a k33" style="transform:translateX(1128px)"><circle cy="600" r="10" fill="none" stroke="#fff" stroke-opacity=".4"/><circle cy="600" r="5" fill="#fff"/></g>
+      <g class="a k31"><circle cx="1128" cy="600" r="10" fill="#07060e" stroke="#b9a8ff" stroke-width="3"/><text class="tick" x="1140" y="576" text-anchor="end" fill="#b9a8ff">YOU ARE HERE</text></g>
+    </g>
+</g>
+<rect x=".5" y=".5" width="1199" height="674" rx="28" fill="none" stroke="#fff" stroke-opacity=".1"/>
+</svg>

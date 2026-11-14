@@ -1,0 +1,226 @@
+{
+  "person": {
+    "name": "Suman Kumar",
+    "brand": "Code With Kolin",
+    "positioning": "AI & automation engineer who builds in public and teaches how.",
+    "login": "codewithkolin",
+    "home": "https://codewithkolin.com",
+    "appStoreId": "6825675836",
+    "youtubeChannelId": "UCfZC_2pfa6qbRqwQU-IcIrQ"
+  },
+  "links": [
+    [
+      "Story",
+      "https://codewithkolin.com"
+    ],
+    [
+      "Work",
+      "https://codewithkolin.com/projects"
+    ],
+    [
+      "Log",
+      "https://codewithkolin.com/ledger"
+    ],
+    [
+      "Hire",
+      "https://codewithkolin.com/hire"
+    ],
+    [
+      "Courses",
+      "https://courses.codewithkolin.com"
+    ],
+    [
+      "YouTube",
+      "https://www.youtube.com/@codewithkolin"
+    ],
+    [
+      "X",
+      "https://x.com/CodeWithKolin"
+    ],
+    [
+      "Instagram",
+      "https://www.instagram.com/codewithkolin"
+    ],
+    [
+      "LinkedIn",
+      "https://www.linkedin.com/in/codewithkolin/"
+    ]
+  ],
+  "products": [
+    {
+      "title": "Keyfold",
+      "url": "https://keyfold.app",
+      "line": "Offline vault for API keys and 2FA. AI agents use your keys, never see them.",
+      "tone": "violet"
+    },
+    {
+      "title": "Code Beautifier",
+      "url": "https://codebeautifier.app",
+      "line": "Format, convert and validate JSON, SQL and XML. Nothing you paste is uploaded.",
+      "tone": "cyan"
+    },
+    {
+      "title": "MakeACalc",
+      "url": "https://makeacalc.com",
+      "line": "Describe a calculator in plain English, get one you can embed.",
+      "tone": "green"
+    },
+    {
+      "title": "EditorGigs",
+      "url": "https://editorgigs.com",
+      "line": "Creators post video editing jobs. Editors apply and get hired.",
+      "tone": "blue"
+    }
+  ],
+  "eras": [
+    {
+      "label": "Origin",
+      "material": "film",
+      "kicker": "First computer, then college",
+      "palette": {
+        "bg": "#17110c",
+        "bg2": "#2a1d13",
+        "ink": "#f3e6cc",
+        "muted": "#c2b08f",
+        "accent": "#e8845a",
+        "accent2": "#f2c46d"
+      },
+      "beats": [
+        {
+          "year": 1992,
+          "title": "Born",
+          "note": "8 January"
+        },
+        {
+          "year": 2001,
+          "title": "First computer",
+          "note": "An Intel Pentium 1"
+        },
+        {
+          "year": 2012,
+          "title": "Engineering college",
+          "note": "NMAMIT, Nitte · B.E. Electrical & Electronics"
+        },
+        {
+          "year": 2016,
+          "title": "The camera goes on",
+          "note": "YouTube · 21 December"
+        }
+      ]
+    },
+    {
+      "label": "First job",
+      "material": "crt",
+      "kicker": "Paid work, and a camera on the side",
+      "palette": {
+        "bg": "#040a06",
+        "bg2": "#0b1a10",
+        "ink": "#d4ffe0",
+        "muted": "#8fc09c",
+        "accent": "#3dff8f",
+        "accent2": "#b7ff5c"
+      },
+      "beats": [
+        {
+          "year": 2017,
+          "title": "CSS Corp",
+          "note": "System Engineer · Bengaluru"
+        },
+        {
+          "year": 2017,
+          "title": "Bike, road, camera",
+          "note": "30+ places across India"
+        }
+      ]
+    },
+    {
+      "label": "Engineer",
+      "material": "blueprint",
+      "kicker": "Engineering, and everything at once",
+      "palette": {
+        "bg": "#0a1830",
+        "bg2": "#122544",
+        "ink": "#e3f1ff",
+        "muted": "#9ab8dc",
+        "accent": "#5cc8ff",
+        "accent2": "#a6e3ff"
+      },
+      "beats": [
+        {
+          "year": 2019,
+          "title": "HCLTech",
+          "note": "Python Automation Engineer"
+        },
+        {
+          "year": 2021,
+          "title": "Ribbon Communications",
+          "note": "R&D Testing Engineer II"
+        }
+      ]
+    },
+    {
+      "label": "Teacher",
+      "material": "chalk",
+      "kicker": "The classroom goes global",
+      "palette": {
+        "bg": "#1b2a22",
+        "bg2": "#24382d",
+        "ink": "#eef3ea",
+        "muted": "#afbfb0",
+        "accent": "#f5d76e",
+        "accent2": "#f4a7b9"
+      },
+      "beats": [
+        {
+          "year": 2023,
+          "title": "Juniper Networks",
+          "note": "Software Engineer 3"
+        },
+        {
+          "year": 2023,
+          "title": "Career coach",
+          "note": "500+ mentored on topmate · top 0.1%"
+        },
+        {
+          "year": 2024,
+          "title": "@codewithkolin",
+          "note": "50K followers on Instagram"
+        }
+      ],
+      "aside": "900+ students since 2020"
+    },
+    {
+      "label": "Builder",
+      "material": "electric",
+      "kicker": "One ship a week",
+      "palette": {
+        "bg": "#07060e",
+        "bg2": "#141029",
+        "ink": "#f1efff",
+        "muted": "#a9a5c8",
+        "accent": "#8b6cff",
+        "accent2": "#35f0ff"
+      },
+      "beats": [
+        {
+          "year": 2026,
+          "title": "One a week",
+          "note": "1 ship / week, in public"
+        },
+        {
+          "year": 2026,
+          "title": "One thing I'm not telling you yet",
+          "note": "Opens 2036"
+        }
+      ]
+    }
+  ],
+  "now": {
+    "bg": "#07060e",
+    "bg2": "#17123a",
+    "ink": "#f6f4ff",
+    "muted": "#b0acd2",
+    "accent": "#b9a8ff",
+    "accent2": "#35f0ff"
+  }
+}
