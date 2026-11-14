@@ -51,25 +51,81 @@
       "title": "Keyfold",
       "url": "https://keyfold.app",
       "line": "Offline vault for API keys and 2FA. AI agents use your keys, never see them.",
-      "tone": "violet"
+      "tone": "violet",
+      "lang": "TypeScript"
     },
     {
       "title": "Code Beautifier",
       "url": "https://codebeautifier.app",
       "line": "Format, convert and validate JSON, SQL and XML. Nothing you paste is uploaded.",
-      "tone": "cyan"
+      "tone": "cyan",
+      "lang": "TypeScript"
     },
     {
       "title": "MakeACalc",
       "url": "https://makeacalc.com",
       "line": "Describe a calculator in plain English, get one you can embed.",
-      "tone": "green"
+      "tone": "green",
+      "lang": "TypeScript"
     },
     {
       "title": "EditorGigs",
       "url": "https://editorgigs.com",
       "line": "Creators post video editing jobs. Editors apply and get hired.",
-      "tone": "blue"
+      "tone": "blue",
+      "lang": "TypeScript"
+    },
+    {
+      "title": "CalculateEveryday",
+      "url": "https://calculateeveryday.com",
+      "line": "114 free calculators with formulas, charts, and honest edge cases.",
+      "tone": "amber",
+      "lang": "TypeScript"
+    },
+    {
+      "title": "QuickPrint",
+      "url": "https://quickprint.codewithkolin.com",
+      "line": "Hyperlocal print-on-demand: upload, pay, collect when ready.",
+      "tone": "orange",
+      "lang": "TypeScript"
+    },
+    {
+      "title": "Browser Tools",
+      "url": "https://tools.codewithkolin.com",
+      "line": "Chrome extensions: FakeCatch scores reviews, BaitCatch hides clickbait.",
+      "tone": "blue",
+      "lang": "TypeScript"
+    },
+    {
+      "title": "Confetti Desk",
+      "url": "https://confettidesk.com",
+      "line": "Printable party games, puzzles and planning kits. Print at home.",
+      "tone": "fuchsia",
+      "lang": "JavaScript"
+    },
+    {
+      "title": "Kolin HQ",
+      "url": "https://stats.codewithkolin.com",
+      "line": "One dashboard for my websites, YouTube, Instagram and Mac and iOS apps.",
+      "tone": "cyan",
+      "lang": "TypeScript",
+      "extra": true
+    },
+    {
+      "title": "Fit",
+      "url": "https://fit.codewithkolin.com",
+      "line": "My daily fitness log, built in public: water, protein, training and recovery.",
+      "tone": "green",
+      "lang": "TypeScript",
+      "extra": true
+    },
+    {
+      "title": "Boardroom Cue",
+      "url": "https://boardroomcue.com",
+      "line": "A private teleprompter for founders: read beside the lens, record hands-free.",
+      "tone": "rose",
+      "lang": "Swift",
+      "extra": true
     }
   ],
   "eras": [

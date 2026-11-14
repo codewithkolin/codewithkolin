@@ -99,6 +99,7 @@ for (const [key, load] of Object.entries(sources)) {
 
 const seen = new Set();
 const products = [...story.products, ...(data.products || [])].filter((p) => !seen.has(host(p.url)) && seen.add(host(p.url)));
+const live = products.filter((p) => !p.extra).length; // extras get a ticket but are not products
 const apps = data.apps || [];
 const videos = (data.videos || []).slice(0, 2);
 const lastShip = data.ledger?.[0]
@@ -201,7 +202,7 @@ function film() {
   const blocks = [
     lastShip && { k: 'LAST SHIPPED', v: wrap(lastShip.title, 20), note: lastShip.note },
     data.contributions && { k: 'GITHUB', v: [data.contributions.toLocaleString('en-IN')], note: 'contributions in the last year' },
-    { k: 'LIVE RIGHT NOW', v: [count(products.length, 'product')], note: apps.length ? `and ${count(apps.length, 'app')} on the App Store` : 'on the open web' },
+    { k: 'LIVE RIGHT NOW', v: [count(live, 'product')], note: apps.length ? `and ${count(apps.length, 'app')} on the App Store` : 'on the open web' },
   ].filter(Boolean);
   let y = 204;
   const column = blocks.map((b) => {
@@ -308,15 +309,15 @@ ${css.join('\n')}
 
 // ---------- tickets: one per thing a visitor can open ----------
 const TONE = { amber: '#f5b547', orange: '#ff8a4c', fuchsia: '#e879f9', violet: '#b9a8ff', cyan: '#35f0ff', green: '#3ee08f', blue: '#5cc8ff', rose: '#f4a7b9' };
-function ticket({ kicker, title, line, foot, verb, tone }) {
+function ticket({ kicker, title, line, foot, verb, tone, lock }) {
   const c = TONE[tone] || TONE.violet, w = 600, h = 220, nx = 462, r = 18, n = 12, cx = (nx + w) / 2;
   const outline = `M${r} 0H${nx - n}A${n} ${n} 0 0 0 ${nx + n} 0H${w - r}A${r} ${r} 0 0 1 ${w} ${r}V${h - r}A${r} ${r} 0 0 1 ${w - r} ${h}H${nx + n}A${n} ${n} 0 0 0 ${nx - n} ${h}H${r}A${r} ${r} 0 0 1 0 ${h - r}V${r}A${r} ${r} 0 0 1 ${r} 0Z`;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 ${w + 2} ${h + 2}" width="${w + 2}" height="${h + 2}" role="img" aria-label="${esc(title)}">
 <style>.k{font:500 14px ${FONT.mono};letter-spacing:.14em}.t{font:400 40px ${FONT.display};letter-spacing:-.02em}.l{font:400 19px ${FONT.sans}}</style>
 <path d="${outline}" fill="#100e1c" stroke="#fff" stroke-opacity=".16"/>
 <path d="M${nx} ${n + 10}V${h - n - 10}" stroke="#fff" stroke-opacity=".24" stroke-width="2" stroke-dasharray="1 8" stroke-linecap="round"/>
-<rect x="30" y="35" width="26" height="3" rx="1.5" fill="${c}"/>
-<text class="k" x="66" y="42" fill="${c}">${esc(kicker.toUpperCase())}</text>
+${lock ? `<rect x="30" y="33" width="14" height="10" rx="2.5" fill="${c}"/><path d="M33 33v-3a4 4 0 0 1 8 0v3" fill="none" stroke="${c}" stroke-width="2"/>` : `<rect x="30" y="35" width="26" height="3" rx="1.5" fill="${c}"/>`}
+<text class="k" x="${lock ? 54 : 66}" y="42" fill="${c}">${esc(kicker.toUpperCase())}</text>
 <text class="t" x="30" y="98" fill="#f6f4ff">${esc(clip(title, 20))}</text>
 ${wrap(line, 42).map((l, i) => `<text class="l" x="30" y="${134 + i * 26}" fill="#b6b2d2">${esc(l)}</text>`).join('')}
 <text class="k" x="30" y="${h - 20}" fill="#85819f">${esc(foot.toUpperCase())}</text>
@@ -328,14 +329,15 @@ ${wrap(line, 42).map((l, i) => `<text class="l" x="30" y="${134 + i * 26}" fill=
 }
 
 const tickets = [
-  ...products.map((p) => ({ ...p, kicker: 'Now showing · Web', foot: host(p.url), verb: 'OPEN' })),
+  // shortcut: private repos are hand-listed in story.json (the robot cannot see them); switch to a read-only token if the list gets tedious
+  ...products.map((p) => ({ ...p, kicker: p.lang ? `Private repo · ${p.lang}` : 'Now showing · Web', lock: Boolean(p.lang), foot: host(p.url), verb: 'OPEN' })),
   ...apps.map((a) => ({ ...a, kicker: `App Store · ${a.platform}`, foot: 'apps.apple.com', verb: 'GET', tone: 'rose' })),
   ...videos.map((v) => ({ ...v, kicker: 'Latest video', line: day(v.date), foot: 'youtube.com', verb: 'WATCH', tone: 'orange' })),
-].map((t) => ({ ...t, file: `assets/tickets/${slug(t.title)}.svg` }));
+].map((t) => ({ ...t, file: `assets/tickets/${slug(`${t.title} ${t.foot}`)}.svg` }));
 
 // ---------- README ----------
 const facts = [lastShip && `last shipped ${lastShip.title}`, data.contributions && `${data.contributions.toLocaleString('en-IN')} contributions in the last year`].filter(Boolean);
-const filmAlt = `${person.name}. ${person.positioning} ${count(products.length, 'product')} live${facts.length ? `, ${facts.join(', ')}` : ''}.`;
+const filmAlt = `${person.name}. ${person.positioning} ${count(live, 'product')} live${facts.length ? `, ${facts.join(', ')}` : ''}.`;
 const readme = `<!-- Rebuilt every night by build.mjs. Edit data/story.json, not this file. -->
 <a href="${person.home}"><img src="assets/film.svg" width="100%" alt="${esc(filmAlt)}"></a>
 

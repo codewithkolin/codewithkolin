@@ -2,10 +2,10 @@
 <style>.k{font:500 14px ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;letter-spacing:.14em}.t{font:400 40px 'Iowan Old Style','Palatino Linotype',Palatino,Georgia,'Times New Roman',serif;letter-spacing:-.02em}.l{font:400 19px ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif}</style>
 <path d="M18 0H450A12 12 0 0 0 474 0H582A18 18 0 0 1 600 18V202A18 18 0 0 1 582 220H474A12 12 0 0 0 450 220H18A18 18 0 0 1 0 202V18A18 18 0 0 1 18 0Z" fill="#100e1c" stroke="#fff" stroke-opacity=".16"/>
 <path d="M462 22V198" stroke="#fff" stroke-opacity=".24" stroke-width="2" stroke-dasharray="1 8" stroke-linecap="round"/>
-<rect x="30" y="35" width="26" height="3" rx="1.5" fill="#ff8a4c"/>
-<text class="k" x="66" y="42" fill="#ff8a4c">NOW SHOWING · WEB</text>
+<rect x="30" y="33" width="14" height="10" rx="2.5" fill="#ff8a4c"/><path d="M33 33v-3a4 4 0 0 1 8 0v3" fill="none" stroke="#ff8a4c" stroke-width="2"/>
+<text class="k" x="54" y="42" fill="#ff8a4c">PRIVATE REPO · TYPESCRIPT</text>
 <text class="t" x="30" y="98" fill="#f6f4ff">QuickPrint</text>
-<text class="l" x="30" y="134" fill="#b6b2d2">Hyperlocal print-on-demand — upload, pay,</text><text class="l" x="30" y="160" fill="#b6b2d2">collect when ready.</text>
+<text class="l" x="30" y="134" fill="#b6b2d2">Hyperlocal print-on-demand: upload, pay,</text><text class="l" x="30" y="160" fill="#b6b2d2">collect when ready.</text>
 <text class="k" x="30" y="200" fill="#85819f">QUICKPRINT.CODEWITHKOLIN.COM</text>
 <circle cx="531" cy="94" r="26" fill="none" stroke="#ff8a4c" stroke-width="2"/>
 <path d="M522 103L540 85M527 85H540V98" fill="none" stroke="#ff8a4c" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
