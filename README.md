@@ -1,5 +1,5 @@
 <!-- Rebuilt every night by build.mjs. Edit data/story.json, not this file. -->
-<a href="https://codewithkolin.com"><img src="assets/film.svg" width="100%" alt="Suman Kumar. AI &amp; automation engineer who builds in public and teaches how. 8 products live, last shipped keyfold, 1,914 contributions in the last year."></a>
+<a href="https://codewithkolin.com"><img src="assets/film.svg" width="100%" alt="Suman Kumar. AI &amp; automation engineer who builds in public and teaches how. 8 products live, last shipped keyfold, 1,930 contributions in the last year."></a>
 
 <p align="center">
 <a href="https://keyfold.app"><img src="assets/tickets/keyfold-keyfold-app.svg" width="49%" alt="Keyfold: Offline vault for API keys and 2FA. AI agents use your keys, never see them."></a>
@@ -18,4 +18,4 @@
 
 <p align="center"><a href="https://codewithkolin.com">Story</a> · <a href="https://codewithkolin.com/projects">Work</a> · <a href="https://codewithkolin.com/ledger">Log</a> · <a href="https://codewithkolin.com/hire">Hire</a> · <a href="https://courses.codewithkolin.com">Courses</a> · <a href="https://www.youtube.com/@codewithkolin">YouTube</a> · <a href="https://x.com/CodeWithKolin">X</a> · <a href="https://www.instagram.com/codewithkolin">Instagram</a> · <a href="https://www.linkedin.com/in/codewithkolin/">LinkedIn</a></p>
 
-<p align="center"><sub>Tonight's cut: 20 Nov 2026 · last shipped keyfold · 1,914 contributions in the last year. Redrawn every night from live data by <a href="build.mjs">one script</a>.</sub></p>
+<p align="center"><sub>Tonight's cut: 21 Nov 2026 · last shipped keyfold · 1,930 contributions in the last year. Redrawn every night from live data by <a href="build.mjs">one script</a>.</sub></p>
